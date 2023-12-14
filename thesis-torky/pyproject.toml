@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RAGIR"
+version = "1.0"
+authors = [
+  { name="Islam Torky", email="islam.alaa.torky@gmail.com" },
+]
+description = "Final Project"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "huggingface",
+    "huggingface-hub",
+    "llama-index",
+    "weaviate-client",
+    "llama-cpp-python",
+    "transformers",
+    "ragas",
+    "protobuf",
+    "FlagEmbedding",
+    "pypdf",
+    "llama_hub",
+]

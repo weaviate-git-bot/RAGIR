@@ -1,0 +1,12 @@
+torch
+huggingface
+huggingface-hub
+llama-index
+weaviate-client
+llama-cpp-python
+transformers
+ragas
+protobuf
+FlagEmbedding
+pypdf
+llama_hub
